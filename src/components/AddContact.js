@@ -30,7 +30,7 @@ export default class AddContact extends Component {
                     name="name" 
                     placeholder="Name" 
                     value={this.state.name}
-                    onChange={(e)=>this.setState(e.target.value)} />
+                    onChange={(e)=>this.setState({name : e.target.value})} />
                 </div>
                 <div className='field'>
                     <label>Email</label>
